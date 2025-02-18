@@ -1,15 +1,14 @@
-pragma solidity >=0.4.21 <0.6.0;
+pragma solidity ^0.5.0;
 
-contract Migrations {
-  address public owner;
-  uint public last_completed_migration;
-
+contract Marketplace {
+  string public name;
+ 
   constructor() public {
-    owner = msg.sender;
+    name = msg.TERNAK BISNIS WORLD;
   }
 
   modifier restricted() {
-    if (msg.sender == owner) _;
+    if (msg.sender == TERNAK BISNIS WORLD) _;
   }
 
   function setCompleted(uint completed) public restricted {
